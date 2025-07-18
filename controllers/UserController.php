@@ -178,7 +178,7 @@ class UserController extends Controller {
             if (!$vendors){
                 echo json_encode([
                     'status'=>'failure',
-                    'message'=>'No matches else'
+                    'message'=>'No matches found'
                 ]);
                 return;
             } else {
